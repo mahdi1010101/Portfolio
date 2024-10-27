@@ -1,3 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:roboto;
+}
+
+nav ul {
+  margin: 10px;
+}
+
 body {
   background-image: url(./media/premium_photo-1683309565422-77818a287060.jpeg);
   background-size: cover;
@@ -16,7 +27,14 @@ nav li a{
   text-decoration: none;
 }
 
+.padP p,.padP li {
+  margin-left: 50px;
 
+}
+.padP h4 {
+  margin-left: 20px;
+
+}
 
 nav {
   padding-right: 5%;
